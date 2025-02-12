@@ -1,0 +1,169 @@
+body{
+    background-color: black;
+}
+.navigation-panel{
+    color: grey;
+    font-family: verdana;
+}
+.navigation-panel a{
+    color: grey;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 13px;
+    font-family: verdana;
+    transition: all 0.5s ease;
+}
+.navigation-panel a:hover{
+    color: aquamarine;
+    padding-left: 10px;
+}
+.navigation-panel a:active{
+    color: white;
+}
+strong{
+    color: aquamarine;
+}
+.navigation-panel button{
+    text-align: center;
+    padding: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 10px;
+    font-family: verdana;
+    background: aqua;
+    border: none;
+    border-radius: 3px;
+    float: right;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+.navigation-panel button:hover{
+    background-color: hsla(180, 100%, 50%, 0.519);
+}
+.home-items{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 4fr));
+    margin: 70px;
+    gap: 400px;
+}
+.home-item img{
+    width: 400px;
+    border-radius: 10px;
+}
+.home-item h1{
+    color: grey;
+    font-family: verdana;
+    font-size: 15px;
+}
+.home-item small, p{
+    color: hsl(0, 15%, 90%);
+    font-size: 20px;
+}
+.downloadbtn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid aquamarine;
+    margin: 15px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+.downloadbtn:hover{
+    background: aquamarine;
+}
+.footer{
+    color: grey;
+    text-align: center;
+}
+.about-container p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: white;
+    margin: 30px;
+}
+.skill{
+    text-align: center;
+    display: block;
+    margin: 20px;
+}
+.skill a{
+    color: grey;
+    text-decoration: none;
+    background: transparent;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid aquamarine;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+.skill a:hover{
+    background: hsla(160, 100%, 75%, 0.692);
+}
+.skill a:active{
+    background: #fff;
+}
+.skill h1{
+    color: grey;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}.services-container h1{
+    color: grey;
+    margin: 50px;
+    border: 1px solid grey;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.services{
+    color: grey;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.services ul li{
+    margin: 50px;
+    border: 1px solid aquamarine;
+    padding: 10px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    transition: all0.5s ease-in-out;
+    list-style-type:upper-roman;
+}
+.services ul li:hover{
+    background-color: hsla(160, 100%, 75%, 0.803);
+}
+.projects h1{
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline aquamarine;
+    text-align: center;
+    margin: 25px;
+}
+.contacts-container h1{
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+.social a img{
+    background-color: white;
+    width: 30px;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    margin: 10px;
+}
+.social a img:hover{
+    transform:  rotate(45deg);
+    background: aquamarine;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.copyrights{
+    text-align: right;
+}
